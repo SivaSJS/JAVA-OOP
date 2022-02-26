@@ -5,7 +5,7 @@ import java.util.Scanner;
 
 public interface A {
 
-    // Every fiels that's declared inside in interface is going to be static and final.
+    // Every fields that's declared inside an interface is going to be static and final.
     // so we need to instanciate and need to give value at first place
     // int val; // <- This is show as error
     int val = 20;  // <- This will not
